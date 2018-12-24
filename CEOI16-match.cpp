@@ -1,6 +1,4 @@
-//For each L, find the first R such that [L,R) can form a BRS
-//By DSU(or someother method) link all L,R and put equal labels for all x,y st [x,y) can form a BRS
-//For each character, greedily find the last occurence inside the current segment of the same type such that [x,y] can form a BRS, using method above
+//For each L, find the first R such that [L,R) can form a BRS, By DSU(or someother method) link all L,R and put equal labels for all x,y st [x,y) can form a BRS, For each character, greedily find the last occurence inside the current segment of the same type such that [x,y] can form a BRS, using method above
 #include<iostream>
 #include<stack>
 #include<set>
