@@ -1,5 +1,4 @@
-//maintain a forest, connect small tree to large tree, compress the enitre cycle into one node if adding edge creates cycle
-//do parallel binary search by the standard DSU with undos
+//maintain a forest, connect small tree to large tree, compress the enitre cycle into one node if adding edge creates cycle, do parallel binary search by the standard DSU with undos
 #include<iostream>
 #include<queue>
 #include<set>
