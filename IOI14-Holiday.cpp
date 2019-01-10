@@ -1,5 +1,7 @@
 /*
-Do both sides seperately. Make some observation like "if i is better than j here, i will be better than j forever". Maintain monotone queue and compute values using persistent BIT.
+Do both sides seperately.
+Make some observation like "Consider cost as a function of d.if i is better than j at f(d') and dis(i,start)>dis(j,start), i will be better than j for all d''>d' ".
+Maintain monotone queue and compute values using persistent BIT.
 */
 #include<cstdio>
 #include"holiday.h"
