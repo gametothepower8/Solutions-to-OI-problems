@@ -1,3 +1,8 @@
+/*https://codeforces.com/blog/entry/59650
+the last part is explained poorly
+Basically, you do sweepline by location, and maintain a segtree for time. Each cell stores one x-coordinate.
+Do once each for positive slope and negative slope
+*/
 #include<iostream>
 #include<set>
 #include<map>
