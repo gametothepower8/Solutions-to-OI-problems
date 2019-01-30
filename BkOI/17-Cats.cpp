@@ -1,7 +1,7 @@
 /*
 Consider the subsequence consisting of elements that doesnt move
 Handle edge cases (no 0,1,or 2)
-If both 0,1 exists, we can move other 0 next to some 0 in the sequence, and similar for 1
+If both 0,1 exists, we can move rest of the 0s next to some 0 in the sequence, and similar for 1
 We can formulate dp:
 - for prefix i
 - where j 2s are needed for the subsequence to be valid (including 2s that doesnt move),
