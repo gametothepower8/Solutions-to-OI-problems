@@ -7,11 +7,11 @@ We recalculate everytime for the range we can't branch
 #include "wombats.h"
 #include<iostream>
 using namespace std;
-const int tmw=14;
+const int tmw=7;
 const int M=5001,N=201,S=1501;
 int m,n;
 int dp[S][N][N];
-int dp2[32][N][N];
+int dp2[16][N][N];
 int lc[S],rc[S];
 int h[M][N],v[M][N];
 void cal(int id,int st,int l,int r,int optl,int optr){
@@ -62,6 +62,7 @@ void upd(int id,int l,int r,int x,int y){
 		return;
 	}
 	int mid=(l+r)/2;
+	mid+=(tmw-mid%tmw)%tmw;
 	upd(lc[id],l,mid,x,y);
 	upd(rc[id],mid+1,r,x,y);
 	for(int i=1; i<=n ;i++) cal(id,i,1,n,1,n);
@@ -75,6 +76,7 @@ void build(int id,int l,int r){
 	}
 	lc[id]=++ptr;rc[id]=++ptr;
 	int mid=(l+r)/2;
+	mid+=(tmw-mid%tmw)%tmw;
 	build(lc[id],l,mid);build(rc[id],mid+1,r);
 	for(int i=1; i<=n ;i++) cal(id,i,1,n,1,n);
 }
