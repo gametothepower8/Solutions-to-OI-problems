@@ -1,6 +1,6 @@
 /*
-Count the number of 0s
-Count the number of 1s between each pair of 0s and at the start and end
+Count the number of 0s (trivial)
+Target is to count the number of 1s between each pair of 0s and at the start and end
 Determine whether an interval has >=k 1s can be done by creating two query strings with total length N+2
 */
 #include<bits/stdc++.h>
