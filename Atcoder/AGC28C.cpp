@@ -1,6 +1,9 @@
 /*
 Consider it as you choose N values out of 2*N values.
-It would be valid if there is an element, you choose both A and B, or you choose A for all elements.
+It would be valid if one of these is true
+- there is an element, you choose both A and B
+- you choose A for all elements
+- you choose B for all elements
 Just check [1,N], [1,N)+{N+1}, [1,N)+{N+2}, and [1,N-1)+{N}+{N+1}
 */
 #include<iostream>
