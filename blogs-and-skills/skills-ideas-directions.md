@@ -8,11 +8,11 @@
  * Centroid Decomposition
  * Sqrt Decomposition
  * CDQ
-  * AP193,N1423
+   * AP193,N1423
  * Hashing
-  * Bk1822,452F,M1854
+   * Bk1822,452F,M1854
  * Pigeon-hole principle
-  * AP163,USC1932,TI2042
+   * AP163,USC1932,TI2042
  
 # Segtree
 * Construct Mergable Tags (eg. number of minimum)
