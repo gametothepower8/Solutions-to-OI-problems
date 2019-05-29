@@ -28,7 +28,7 @@
     * fixed l,r, add edges for [i,i+y] for all i in [l,r] and y in some set
     * let x be minimum difference between any two elements of y
     * add edges for [i,i+x] for all i in [l,r-x]
-    * add edges for [i,i+y] for all i in [l,l+x-1] and y in some set
+    * add edges for [i,i+y] for all i in [l,min(r,l+x-1)] and y in some set
     * by pigeon-hole principle, complexity is O(N+Q) (with counting sort)
     * by setting K=sqrt(N), overall complexity is O((N+Q)sqrt(N))
   * Q3: 
