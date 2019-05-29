@@ -5,6 +5,7 @@
  * Strongly Connected Components
  * Convex Hull Trick
  * Small-to-large (can be very hard dont forget gggggg)
+   * N1822,USC1941
  * Centroid Decomposition
  * Sqrt Decomposition
  * CDQ
