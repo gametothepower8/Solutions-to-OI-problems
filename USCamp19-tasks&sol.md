@@ -2,7 +2,7 @@
   * Q1: count number of palindromes in string
     * manacher/hashing+binary search
   * Q2:
-  * Q3: construct string with len<=1e5 that consists of exactly K<=1e9 subsegments that are palindromes
+  * Q3: construct string using 2 different characters with len<=1e5 that consists of exactly K<=1e9 subsegments that are palindromes
     * https://pastebin.com/9KQN0YSD (didn't check)
     * basically construct something of the form aa..abb..baa..abb..baa...
 # Day 2
