@@ -9,7 +9,7 @@
  * Centroid Decomposition
  * Sqrt Decomposition
  * CDQ
-   * AP193,N1423
+   * AP193,N1423,US1822
  * Hashing
    * Bk1822,452F,M1854
  * Pigeon-hole principle
