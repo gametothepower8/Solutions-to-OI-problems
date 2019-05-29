@@ -4,7 +4,7 @@
   * Q2:
   * Q3: construct string using 2 different characters with len<=1e5 that consists of exactly K<=1e9 subsegments that are palindromes
     * https://pastebin.com/9KQN0YSD (didn't check)
-    * basically construct something of the form aa..abb..baa..abb..baa...
+    * basically construct something considering by cutting between different characters aa..a|bb..b|aa..a|bb..b|aa...
 # Day 2
   * Q1: https://cdn.discordapp.com/attachments/575910389066235917/582441440790183947/Screen_Shot_2019-05-27_at_01.34.04.png
     * sort by duration desc
