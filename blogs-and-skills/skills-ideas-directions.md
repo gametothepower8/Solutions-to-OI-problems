@@ -16,7 +16,7 @@
  
 # Segtree
 * Construct Mergable Tags (eg. number of minimum)
-  * SC1843,SC1933,1060G(hard),1083C,679E,997E,SC1921
+  * SC1843,SC1933,1060G(hard),1083C,679E,997E,SC1921,102012E
 * Sweepline in different dimensions
   * AP193,AP181,1083D,1034D,SC1922
 * Apply on cartesian tree
