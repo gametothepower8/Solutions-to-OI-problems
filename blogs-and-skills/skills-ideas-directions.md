@@ -25,9 +25,9 @@
  
 # Segtree
 * Construct Mergable Tags (eg. number of minimum)
-  * SC1843,SC1933,1060G(hard),1083C,679E,997E,SC1921,102012E,102056K
+  * SC1843,SC1933,1060G(hard),1083C,679E,997E,SC1921
 * Sweepline in different dimensions
-  * AP193,AP181,1083D,1034D,SC1922
+  * AP193,AP181,1034D,SC1922
 * Apply on cartesian tree
   * I1822,SAFPAR
 * Segtree Beats (from jiry_2)
@@ -37,8 +37,10 @@
 * Relax/Change conditions (easy to miss)
   * 1149C,JO181
 * Persistent
-* Monotonicity with D&C dp opt (Very hard)
+* Monotonicity with D&C dp opt (Tricky)
   * US1933,SC1941,I1423
+* Misc
+  * 102012E,102056K,1083D
   
 # Sqrt Decomposition
 
@@ -50,7 +52,7 @@
 * DFS forest
   * USC1942
 * Centroid Decomposition
-  * US1822,N1423
+  * US1822,N1423,PC19101(very very hard)
 # Hard DP
 
 # Misc/Ad-hoc
