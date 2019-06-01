@@ -17,7 +17,7 @@
    * AP163,USC1932,TI2042
  * Divide&conquer
    * Monotonic functions DP opt
-   * Iterative SCC
+   * Offline dynamic SCC (add edges only)
  * Sparse table/binary lifting
    * LCA
  * Binary search
