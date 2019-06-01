@@ -8,12 +8,20 @@
    * N1822,USC1941
  * Centroid Decomposition
  * Sqrt Decomposition
+   * Mo's algorithm
  * CDQ
    * AP193,N1423,US1822
  * Hashing
    * Bk1822,452F,M1854
  * Pigeon-hole principle
    * AP163,USC1932,TI2042
+ * Divide&conquer
+   * Monotonic functions DP opt
+   * SCC
+ * Sparse table/binary lifting
+   * LCA
+ * Binary search
+   * On answer
  
 # Segtree
 * Construct Mergable Tags (eg. number of minimum)
@@ -35,11 +43,16 @@
 # Sqrt Decomposition
 
 # Tree Counting/Maximum
-
+* small-to-large
+  * USC1941,AP162,N1822
+* BCC/SCC
+  * AP183
+* DFS forest
+  * USC1942
+* Centroid Decomposition
+  * US1822,N1423
 # Hard DP
 
-# Interactive
-
-# Constructive
-
 # Misc/Ad-hoc
+* Interactive
+* Constructive
